@@ -1,0 +1,36 @@
+body {
+  background-color:#222;
+  overflow:hidden;
+}
+#background{
+  position:absolute;
+  width:110%;
+  height:110%;
+  background-image:url("media/1.jpg");
+}
+#ctrlaudio {
+  margin-top:15px;
+  margin-left:200px;
+  opacity:0.5;
+}
+.decalage {
+  margin-top:150px;
+}
+.decalage50 {
+  margin-top:50px;
+}
+.fenetre {
+  background-color:#222;
+  border-radius:5px;
+  border:0px;
+}
+.texte {
+  padding:20px;
+  color:#eee;
+  font-style:italic;
+}
+.jet {
+  text-align:center;
+  color:#eee;
+  padding:20px;
+}
