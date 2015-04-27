@@ -24,6 +24,10 @@ body {
   border-radius:5px;
   border:0px;
 }
+.titre {
+  color:#eee;
+  font-style:bold;
+}
 .texte {
   padding:20px;
   color:#eee;
@@ -33,4 +37,10 @@ body {
   text-align:center;
   color:#eee;
   padding:20px;
+}
+.image {
+  height:300px;
+  padding:20px;
+  display:block;
+  float:left;
 }
