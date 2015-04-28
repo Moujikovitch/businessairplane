@@ -2,24 +2,48 @@
 <nav class="navbar navbar-default decalage fenetre">
 	<div class="col-md-10" style="margin-top:6px;">
         <form class="form-inline">
-            <select name="Marques" id="select" class="form-control" style="min-width:100px;">
-                <option disabled selected style='display:none;'>Marque</option>
-
+            <select id="cons" class="form-control">
+                <option disabled selected>Constructeur</option>
+                <option>Dassault</option>
+                <option>Airbus</option>
+                <option>Bombardier</option>
             </select>
-            <select name="Model" id="select1" class="form-control" style="min-width:100px;">
-                <option disabled selected style='display:none;'>Modèle</option>
-
+            <select name="ModèleD" class="form-control masque" id="Dassault" style="display:none">
+                <option disabled selected>Modèle</option>
+                <option>X7</option>
+                <option>B6</option>
             </select>
-            <select name="moteur" id="moteur" class="form-control" style="min-width:100px;">
-                <option disabled selected style='display:none;'>Model</option>
-
+            <select name="ModèleA" class="form-control masque" id="Airbus" style="display:none">
+                <option disabled selected>Modèle</option>
+                <option>jetv9</option>
+                <option>explorer10</option>
+            </select>
+            <select name="PropulsionD1" class="form-control masque2" id="jetv9" style="display:none">
+                <option disabled selected>Propulsion</option>
+                <option value="coucou">Helice</option>
+                <option>Turbine1</option>
+            </select>
+            <select name="PropulsionD2" class="form-control masque2" id="explorer10" style="display:none">
+                <option disabled selected>Propulsion</option>
+                <option>Helice2</option>
+                <option>Turbine2</option>
+            </select>
+            <select name="PropulsionA1" class="form-control masque2" id="X7" style="display:none">
+                <option disabled selected>Propulsion</option>
+                <option>Helice3</option>
+                <option>Turbine3</option>
+            </select>
+            <select name="PropulsionA2" class="form-control masque2" id="B6" style="display:none">
+                <option disabled selected>Propulsion</option>
+                <option>Helice4</option>
+                <option>Turbine4</option>
             </select>
         </form>
     </div>
 </nav>
 <div class="row decalage50">
 </div>
-	<nav class="navbar navbar-default fenetre">
+	<nav class="navbar navbar-default fenetre masque3" id="coucou">
 		<div class="col-md-10">
 			<img src="media/avion.jpg" class="image"></img>
 			<h3 class="titre">Airbus A-347</h3>
